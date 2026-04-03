@@ -1,7 +1,50 @@
 var dataJson = [
     {
+        "trida": "1PB",
+        "points": 37,
+        "spots": [
+            "01: Zámek Zlín",
+            "02: Památník T. Bati",
+            "03: hrad Malenovice",
+            "04: Kostelec – lázeňské budovy",
+            "05: zámek Klečůvka",
+            "07: vyhlídka z 21. budovy – Baťova mrakodrapu",
+            "08: Sokolovna Zlín",
+            "11: Kostel sv. Filipa a Jakuba",
+            "13: kostel sv. Jakuba Většího v Tečovicích",
+            "14: Kaple Panny Marie Zlín – Příluky",
+            "15: budova soudu v Loukách",
+            "19: nedostavěná Baťova dálnice (mostek)",
+            "24: hrad Lukov",
+            "25: Socha Emila Zátopka",
+            "26: Svah Zlín",
+            "28: Altán U Spáleného dubu",
+            "29: Zimní stadion Luďka Čajky",
+            "30: Slušovická přehrada (zdroj pitné vody)",
+            "32: Janova hora, Janohrad",
+            "33: Maleniska – poutní místo a pramen",
+            "34: Slanica Zlín-Louky",
+            "35: Rozhledna Doubrava u Vizovic",
+            "36: Chladná studně – pramen a kaple u Vizovic",
+            "41: Pomník Karla Mrazíka u Žlutavy",
+            "43: Rozhledna Hostišová",
+            "44: Doležalova skála („Mořské oko“) u Fryštáku",
+            "46: Přístřešek na rybníku Hluboček u Březolup",
+            "49: Pramen Dřevnice",
+            "50: Kaple sv. Antonína Paduánského ve Fryštáku",
+            "51: Bezedník (rybník a přírodní rezervace)",
+            "53: busta Františka Pavlíčka (dramatika) v Lukově",
+            "54: Hvězdárna Zlín",
+            "61: Alois Hába (rodák z Vizovic) - pomník ve Vizovicích",
+            "84: Brdo",
+            "87: První panelový dům ve Zlíně",
+            "89: Uriášův kámen",
+            "90: Památník obětem II. sv. války Březnice"
+        ]
+    },
+    {
         "trida": "7EB",
-        "points": 36,
+        "points": 37,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -9,6 +52,7 @@ var dataJson = [
             "07: vyhlídka z 21. budovy – Baťova mrakodrapu",
             "09: vila Tomáše Bati",
             "11: Kostel sv. Filipa a Jakuba",
+            "12: kaple na Zlínských Pasekách",
             "14: Kaple Panny Marie Zlín – Příluky",
             "15: budova soudu v Loukách",
             "24: hrad Lukov",
@@ -39,46 +83,6 @@ var dataJson = [
             "85: zřícenina Obřany",
             "86: Vodopád Zlín",
             "88: Tunel UBlanka na \"Baťově nedokončené železnici\""
-        ]
-    },
-    {
-        "trida": "1PB",
-        "points": 34,
-        "spots": [
-            "01: Zámek Zlín",
-            "02: Památník T. Bati",
-            "03: hrad Malenovice",
-            "04: Kostelec – lázeňské budovy",
-            "05: zámek Klečůvka",
-            "07: vyhlídka z 21. budovy – Baťova mrakodrapu",
-            "08: Sokolovna Zlín",
-            "11: Kostel sv. Filipa a Jakuba",
-            "13: kostel sv. Jakuba Většího v Tečovicích",
-            "14: Kaple Panny Marie Zlín – Příluky",
-            "15: budova soudu v Loukách",
-            "24: hrad Lukov",
-            "25: Socha Emila Zátopka",
-            "26: Svah Zlín",
-            "28: Altán U Spáleného dubu",
-            "29: Zimní stadion Luďka Čajky",
-            "30: Slušovická přehrada (zdroj pitné vody)",
-            "32: Janova hora, Janohrad",
-            "33: Maleniska – poutní místo a pramen",
-            "34: Slanica Zlín-Louky",
-            "35: Rozhledna Doubrava u Vizovic",
-            "36: Chladná studně – pramen a kaple u Vizovic",
-            "43: Rozhledna Hostišová",
-            "44: Doležalova skála („Mořské oko“) u Fryštáku",
-            "46: Přístřešek na rybníku Hluboček u Březolup",
-            "49: Pramen Dřevnice",
-            "50: Kaple sv. Antonína Paduánského ve Fryštáku",
-            "51: Bezedník (rybník a přírodní rezervace)",
-            "53: busta Františka Pavlíčka (dramatika) v Lukově",
-            "54: Hvězdárna Zlín",
-            "61: Alois Hába (rodák z Vizovic) - pomník ve Vizovicích",
-            "87: První panelový dům ve Zlíně",
-            "89: Uriášův kámen",
-            "90: Památník obětem II. sv. války Březnice"
         ]
     },
     {
@@ -118,6 +122,17 @@ var dataJson = [
         ]
     },
     {
+        "trida": "2SA",
+        "points": 5,
+        "spots": [
+            "04: Kostelec – lázeňské budovy",
+            "24: hrad Lukov",
+            "35: Rozhledna Doubrava u Vizovic",
+            "36: Chladná studně – pramen a kaple u Vizovic",
+            "61: Alois Hába (rodák z Vizovic) - pomník ve Vizovicích"
+        ]
+    },
+    {
         "trida": "učitel",
         "points": 4,
         "spots": [
@@ -125,15 +140,6 @@ var dataJson = [
             "50: Kaple sv. Antonína Paduánského ve Fryštáku",
             "54: Hvězdárna Zlín",
             "76: Záhlinické rybníky "
-        ]
-    },
-    {
-        "trida": "2SA",
-        "points": 3,
-        "spots": [
-            "35: Rozhledna Doubrava u Vizovic",
-            "36: Chladná studně – pramen a kaple u Vizovic",
-            "61: Alois Hába (rodák z Vizovic) - pomník ve Vizovicích"
         ]
     },
     {

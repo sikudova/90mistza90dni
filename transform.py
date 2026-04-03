@@ -2,8 +2,9 @@ import pandas as pd
 import json
 
 def transform_excel_to_web_data():
-    df = pd.read_excel("C:\\Users\\admin\\OneDrive - Gymnázium Zlín - Lesní čtvrť\\90mistza90dni\\data.xlsx").fillna(0)
     
+    df = pd.read_excel("C:\\Users\\admin\\OneDrive - Gymnázium Zlín - Lesní čtvrť\\90mistza90dni\\data.xlsx", skiprows=1, engine='openpyxl').fillna(0)
+        
     # Odstraníme řádky a sloupce, které obsahují "součet" (case-insensitive)
     cols_to_keep = [c for c in df.columns if "celkový součet" not in str(c).lower()]
     df = df[cols_to_keep]
@@ -18,20 +19,19 @@ def transform_excel_to_web_data():
     result = []
     
     for class_name in class_names:
-        # Převedeme sloupec na řetězec a hledáme "1" nebo číslo 1
-        visited_spots = []
+            # Kontrola hodnoty 1 v buňkách (včetně ošetření mezer)
+            visited_mask = (df[class_name].astype(str).str.strip() == "1") | (df[class_name] == 1)
+            visited_spots = df.loc[visited_mask, first_col].tolist()
+            
+            # Odstranění případných nul z názvů míst a ořezání
+            visited_spots = [str(s).strip() for s in visited_spots if str(s).strip() != "0"]
+            
+            result.append({
+                "trida": str(class_name),
+                "points": len(visited_spots),
+                "spots": visited_spots
+            })
         
-        for _, row in df.iterrows():
-            val = row[class_name]
-            # Kontrola, zda je hodnota 1 (číslo) nebo "1" (text)
-            if str(val).strip() == "1" or val == 1:
-                visited_spots.append(str(row[first_col]))
-        
-        result.append({
-            "trida": str(class_name),
-            "points": len(visited_spots),
-            "spots": visited_spots
-        })
     
     # Seřadíme podle počtu bodů sestupně
     result.sort(key=lambda x: x["points"], reverse=True)

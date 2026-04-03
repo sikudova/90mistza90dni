@@ -75,11 +75,11 @@ var dataJson = [
             "53: busta Františka Pavlíčka (dramatika) v Lukově",
             "54: Hvězdárna Zlín",
             "55: Foucaultovo kyvadlo v rotundě Květné zahrady v Kroměříži",
-            "68: NPR Chropyňský rybník ",
-            "70: PP Stráň ",
-            "76: Záhlinické rybníky ",
+            "68: NPR Chropyňský rybník",
+            "70: PP Stráň",
+            "76: Záhlinické rybníky",
             "78: Hrady v Hostýnských – Křídlo",
-            "79: Hostýn ",
+            "79: Hostýn",
             "85: zřícenina Obřany",
             "86: Vodopád Zlín",
             "88: Tunel UBlanka na \"Baťově nedokončené železnici\""
@@ -106,6 +106,23 @@ var dataJson = [
         ]
     },
     {
+        "trida": "2SA",
+        "points": 11,
+        "spots": [
+            "03: hrad Malenovice",
+            "04: Kostelec – lázeňské budovy",
+            "13: kostel sv. Jakuba Většího v Tečovicích",
+            "15: budova soudu v Loukách",
+            "24: hrad Lukov",
+            "25: Socha Emila Zátopka",
+            "27: Televizní vysílač Zlín - Tlustá hora",
+            "34: Slanica Zlín-Louky",
+            "35: Rozhledna Doubrava u Vizovic",
+            "36: Chladná studně – pramen a kaple u Vizovic",
+            "61: Alois Hába (rodák z Vizovic) - pomník ve Vizovicích"
+        ]
+    },
+    {
         "trida": "3TA",
         "points": 10,
         "spots": [
@@ -122,24 +139,13 @@ var dataJson = [
         ]
     },
     {
-        "trida": "2SA",
-        "points": 5,
-        "spots": [
-            "04: Kostelec – lázeňské budovy",
-            "24: hrad Lukov",
-            "35: Rozhledna Doubrava u Vizovic",
-            "36: Chladná studně – pramen a kaple u Vizovic",
-            "61: Alois Hába (rodák z Vizovic) - pomník ve Vizovicích"
-        ]
-    },
-    {
         "trida": "učitel",
         "points": 4,
         "spots": [
             "25: Socha Emila Zátopka",
             "50: Kaple sv. Antonína Paduánského ve Fryštáku",
             "54: Hvězdárna Zlín",
-            "76: Záhlinické rybníky "
+            "76: Záhlinické rybníky"
         ]
     },
     {
@@ -159,17 +165,17 @@ var dataJson = [
         ]
     },
     {
-        "trida": "4C",
-        "points": 1,
-        "spots": [
-            "76: Záhlinické rybníky "
-        ]
-    },
-    {
         "trida": "2D",
         "points": 1,
         "spots": [
             "01: Zámek Zlín"
+        ]
+    },
+    {
+        "trida": "4C",
+        "points": 1,
+        "spots": [
+            "76: Záhlinické rybníky"
         ]
     },
     {

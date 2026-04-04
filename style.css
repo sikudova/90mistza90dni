@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+body { 
+    font-family: 'Inter', sans-serif; 
+    background-color: #f1f5f9;
+}
+.chart-scroll-container {
+    width: 100%;
+    overflow-x: auto;
+}
+.chart-inner-wrapper {
+    min-width: 800px;
+    height: 400px;
+}
+.custom-scroll::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+}

@@ -1,7 +1,7 @@
 var dataJson = [
     {
-        "trida": "1PB",
-        "points": 37,
+        "class": "1PB",
+        "points": 38,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -26,6 +26,7 @@ var dataJson = [
             "34: Slanica Zlín-Louky",
             "35: Rozhledna Doubrava u Vizovic",
             "36: Chladná studně – pramen a kaple u Vizovic",
+            "40: Kostel Míškovice (F. L. Gahura)",
             "41: Pomník Karla Mrazíka u Žlutavy",
             "43: Rozhledna Hostišová",
             "44: Doležalova skála („Mořské oko“) u Fryštáku",
@@ -43,7 +44,7 @@ var dataJson = [
         ]
     },
     {
-        "trida": "7EB",
+        "class": "7EB",
         "points": 37,
         "spots": [
             "01: Zámek Zlín",
@@ -86,8 +87,33 @@ var dataJson = [
         ]
     },
     {
-        "trida": "2SB",
-        "points": 14,
+        "class": "2SA",
+        "points": 19,
+        "spots": [
+            "01: Zámek Zlín",
+            "02: Památník T. Bati",
+            "03: hrad Malenovice",
+            "04: Kostelec – lázeňské budovy",
+            "09: vila Tomáše Bati",
+            "11: Kostel sv. Filipa a Jakuba",
+            "12: kaple na Zlínských Pasekách",
+            "13: kostel sv. Jakuba Většího v Tečovicích",
+            "15: budova soudu v Loukách",
+            "24: hrad Lukov",
+            "25: Socha Emila Zátopka",
+            "27: Televizní vysílač Zlín - Tlustá hora",
+            "29: Zimní stadion Luďka Čajky",
+            "34: Slanica Zlín-Louky",
+            "35: Rozhledna Doubrava u Vizovic",
+            "36: Chladná studně – pramen a kaple u Vizovic",
+            "54: Hvězdárna Zlín",
+            "61: Alois Hába (rodák z Vizovic) - pomník ve Vizovicích",
+            "89: Uriášův kámen"
+        ]
+    },
+    {
+        "class": "2SB",
+        "points": 19,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -96,35 +122,23 @@ var dataJson = [
             "09: vila Tomáše Bati",
             "11: Kostel sv. Filipa a Jakuba",
             "12: kaple na Zlínských Pasekách",
+            "14: Kaple Panny Marie Zlín – Příluky",
             "15: budova soudu v Loukách",
             "26: Svah Zlín",
             "29: Zimní stadion Luďka Čajky",
             "44: Doležalova skála („Mořské oko“) u Fryštáku",
             "50: Kaple sv. Antonína Paduánského ve Fryštáku",
             "58: Muzeum map Zlín",
-            "87: První panelový dům ve Zlíně"
+            "87: První panelový dům ve Zlíně",
+            "16: hrad Cimburk",
+            "17: Hora sv. Klimenta",
+            "18: hrad Buchlov",
+            "64: Čertův mlýn - nejvyšší vrchol ZK"
         ]
     },
     {
-        "trida": "2SA",
-        "points": 11,
-        "spots": [
-            "03: hrad Malenovice",
-            "04: Kostelec – lázeňské budovy",
-            "13: kostel sv. Jakuba Většího v Tečovicích",
-            "15: budova soudu v Loukách",
-            "24: hrad Lukov",
-            "25: Socha Emila Zátopka",
-            "27: Televizní vysílač Zlín - Tlustá hora",
-            "34: Slanica Zlín-Louky",
-            "35: Rozhledna Doubrava u Vizovic",
-            "36: Chladná studně – pramen a kaple u Vizovic",
-            "61: Alois Hába (rodák z Vizovic) - pomník ve Vizovicích"
-        ]
-    },
-    {
-        "trida": "3TA",
-        "points": 10,
+        "class": "3TA",
+        "points": 12,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -134,12 +148,24 @@ var dataJson = [
             "11: Kostel sv. Filipa a Jakuba",
             "25: Socha Emila Zátopka",
             "30: Slušovická přehrada (zdroj pitné vody)",
+            "44: Doležalova skála („Mořské oko“) u Fryštáku",
+            "50: Kaple sv. Antonína Paduánského ve Fryštáku",
             "86: Vodopád Zlín",
             "88: Tunel UBlanka na \"Baťově nedokončené železnici\""
         ]
     },
     {
-        "trida": "učitel",
+        "class": "6XB",
+        "points": 4,
+        "spots": [
+            "24: hrad Lukov",
+            "53: busta Františka Pavlíčka (dramatika) v Lukově",
+            "38: Most nedokončené silnice v Ludkovicích (ten přes potok)",
+            "64: Čertův mlýn - nejvyšší vrchol ZK"
+        ]
+    },
+    {
+        "class": "učitel",
         "points": 4,
         "spots": [
             "25: Socha Emila Zátopka",
@@ -149,7 +175,7 @@ var dataJson = [
         ]
     },
     {
-        "trida": "5QB",
+        "class": "5QB",
         "points": 2,
         "spots": [
             "01: Zámek Zlín",
@@ -157,29 +183,21 @@ var dataJson = [
         ]
     },
     {
-        "trida": "6XB",
-        "points": 2,
-        "spots": [
-            "24: hrad Lukov",
-            "53: busta Františka Pavlíčka (dramatika) v Lukově"
-        ]
-    },
-    {
-        "trida": "2D",
+        "class": "2D",
         "points": 1,
         "spots": [
             "01: Zámek Zlín"
         ]
     },
     {
-        "trida": "4C",
+        "class": "4C",
         "points": 1,
         "spots": [
             "76: Záhlinické rybníky"
         ]
     },
     {
-        "trida": "7EA",
+        "class": "7EA",
         "points": 1,
         "spots": [
             "50: Kaple sv. Antonína Paduánského ve Fryštáku"

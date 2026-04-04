@@ -8,38 +8,10 @@
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="data.js"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
-        body { 
-            font-family: 'Inter', sans-serif; 
-            background-color: #f1f5f9;
-        }
-        .chart-scroll-container {
-            width: 100%;
-            overflow-x: auto;
-        }
-        /* Minimální šířka pro graf, aby sloupce nebyly moc úzké při mnoha třídách */
-        .chart-inner-wrapper {
-            min-width: 800px;
-            height: 400px;
-        }
-        .custom-scroll::-webkit-scrollbar {
-            height: 8px;
-            width: 8px;
-        }
-        .custom-scroll::-webkit-scrollbar-track {
-            background: #f1f5f9;
-        }
-        .custom-scroll::-webkit-scrollbar-thumb {
-            background: #cbd5e1;
-            border-radius: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="p-5 md:p-8">
     <div class="max-w-6xl mx-auto flex flex-col gap-6">
-        
-        <!-- Hlavička -->
         <header class="flex justify-between items-end bg-white p-6 rounded-3xl shadow-sm border border-slate-200">
             <div>
                 <h1 class="text-3xl font-extrabold text-slate-900">Velká výzva: <span class="text-emerald-600">90 míst za 90 dní</span></h1>
@@ -48,7 +20,7 @@
                 </div>
                 <div class="flex items-center gap-2 mt-1">
                     <p class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full">
-                        Aktualizováno: 3. 4. 2026 22:36:00
+                        Aktualizováno: 4. 4. 2026 16:39:00
                     </p>
                 </div>
             </div>
@@ -58,17 +30,15 @@
             </div>
         </header>
 
-        <!-- Sekce s grafem -->
         <div class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200">
             <h2 class="text-lg font-bold text-slate-800 mb-4 uppercase tracking-wider text-sm">Bodové hodnocení tříd</h2>
             <div class="chart-scroll-container custom-scroll">
                 <div class="chart-inner-wrapper" id="chartWrapper">
-                    <canvas id="expediceChart"></canvas>
+                    <canvas id="pointsChart"></canvas>
                 </div>
             </div>
         </div>
 
-        <!-- Sekce s detaily (pod grafem) -->
         <div id="detailsSection" class="bg-white rounded-3xl p-8 shadow-sm border border-slate-200 min-h-[200px]">
             <div id="emptyState" class="flex flex-col items-center justify-center text-center py-10">
                 <div class="w-16 h-16 bg-slate-50 rounded-full flex items-center justify-center mb-4 text-slate-300">
@@ -96,7 +66,7 @@
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                     <ul id="spotsList" class="contents">
-                        <!-- Místa se vloží sem -->
+
                     </ul>
                 </div>
             </div>
@@ -110,25 +80,24 @@
         const sortedData = [...dataJson].sort((a, b) => b.points - a.points);
 
         function init() {
-            document.getElementById('globalTotal').innerText = sortedData.reduce((s, i) => s + i.points, 0);
+            document.getElementById("globalTotal").innerText = sortedData.reduce((s, i) => s + i.points, 0);
             
-            // Dynamické nastavení šířky grafu podle počtu tříd
-            const wrapper = document.getElementById('chartWrapper');
+            const wrapper = document.getElementById("chartWrapper");
             if (sortedData.length > 10) {
-                wrapper.style.minWidth = (sortedData.length * 70) + 'px';
+                wrapper.style.minWidth = (sortedData.length * 70) + "px";
             }
 
-            const ctx = document.getElementById('expediceChart').getContext('2d');
+            const ctx = document.getElementById("pointsChart").getContext("2d");
             
             chart = new Chart(ctx, {
-                type: 'bar',
+                type: "bar",
                 data: {
-                    labels: sortedData.map(d => d.trida),
+                    labels: sortedData.map(d => d.class),
                     datasets: [{
-                        label: 'Body',
+                        label: "Body",
                         data: sortedData.map(d => d.points),
-                        backgroundColor: '#10b981',
-                        hoverBackgroundColor: '#059669',
+                        backgroundColor: "#10b981",
+                        hoverBackgroundColor: "#059669",
                         borderRadius: 10,
                         borderSkipped: false,
                         barPercentage: 0.7
@@ -146,19 +115,18 @@
                     plugins: {
                         legend: { display: false },
                         tooltip: { 
-                            backgroundColor: '#0f172a',
+                            backgroundColor: "#0f172a",
                             padding: 12,
-                            titleFont: { size: 14, weight: 'bold' },
+                            titleFont: { size: 14, weight: "bold" },
                             bodyFont: { size: 13 }
                         },
-                        // Konfigurace čísel nad sloupci
                         datalabels: {
-                            anchor: 'end',
-                            align: 'top',
+                            anchor: "end",
+                            align: "top",
                             offset: 4,
-                            color: '#065f46',
+                            color: "#065f46",
                             font: {
-                                weight: '800',
+                                weight: "800",
                                 size: 14,
                                 family: "'Inter', sans-serif"
                             },
@@ -168,13 +136,13 @@
                     scales: {
                         y: { 
                             beginAtZero: true, 
-                            grid: { color: '#f1f5f9' }, 
-                            ticks: { font: { weight: 'bold' }, stepSize: 1 },
+                            grid: { color: "#f1f5f9" }, 
+                            ticks: { font: { weight: "bold" }, stepSize: 1 },
                             suggestedMax: Math.max(...sortedData.map(d => d.points)) + 2
                         },
                         x: { 
                             grid: { display: false },
-                            ticks: { font: { weight: '800', size: 14 }, color: '#334155' }
+                            ticks: { font: { weight: "800", size: 14 }, color: "#334155" }
                         }
                     }
                 }
@@ -182,17 +150,16 @@
         }
 
         function showDetails(data) {
-            document.getElementById('emptyState').classList.add('hidden');
-            const panel = document.getElementById('detailsPanel');
-            panel.classList.remove('hidden');
+            document.getElementById("emptyState").classList.add("hidden");
+            const panel = document.getElementById("detailsPanel");
+            panel.classList.remove("hidden");
             
-            // Scroll k detailům
-            document.getElementById('detailsSection').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            document.getElementById("detailsSection").scrollIntoView({ behavior: "smooth", block: "start" });
             
-            document.getElementById('detailTitle').innerText = data.trida;
-            document.getElementById('detailPoints').innerText = data.points;
+            document.getElementById("detailTitle").innerText = data.class;
+            document.getElementById("detailPoints").innerText = data.points;
             
-            const list = document.getElementById('spotsList');
+            const list = document.getElementById("spotsList");
             list.innerHTML = data.spots.map(spot => `
                 <li class="bg-white p-4 rounded-2xl border border-slate-100 text-slate-700 font-semibold flex items-center gap-3 shadow-sm hover:border-emerald-200 transition-colors">
                     <span class="w-2.5 h-2.5 bg-emerald-500 rounded-full flex-shrink-0 shadow-sm shadow-emerald-200"></span>

@@ -1,7 +1,7 @@
 var dataJson = [
     {
         "class": "1PB",
-        "points": 38,
+        "points": 40,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -37,10 +37,12 @@ var dataJson = [
             "53: busta Františka Pavlíčka (dramatika) v Lukově",
             "54: Hvězdárna Zlín",
             "61: Alois Hába (rodák z Vizovic) - pomník ve Vizovicích",
+            "76: Záhlinické rybníky",
             "84: Brdo",
             "87: První panelový dům ve Zlíně",
             "89: Uriášův kámen",
-            "90: Památník obětem II. sv. války Březnice"
+            "90: Památník obětem II. sv. války Březnice",
+            "45: Vyhlídka Samuela Šroma u Bohuslavic"
         ]
     },
     {

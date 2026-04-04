@@ -52,7 +52,7 @@ var dataJson = [
     },
     {
         "class": "1PB",
-        "points": 42,
+        "points": 43,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -95,7 +95,8 @@ var dataJson = [
             "87: První panelový dům ve Zlíně",
             "89: Uriášův kámen",
             "90: Památník obětem II. sv. války Březnice",
-            "45: Vyhlídka Samuela Šroma u Bohuslavic"
+            "45: Vyhlídka Samuela Šroma u Bohuslavic",
+            "42: Pomník ševce F. Bartoše (pod Hostišovou, u Chlumského potoka)"
         ]
     },
     {

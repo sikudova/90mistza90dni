@@ -173,6 +173,38 @@ var dataJson = [
         ]
     },
     {
+        "class": "6XB",
+        "points": 26,
+        "spots": [
+            "03: hrad Malenovice",
+            "06: Hradisko (Hradištěk) – pozůstatky hradu Zlín",
+            "13: kostel sv. Jakuba Většího v Tečovicích",
+            "24: hrad Lukov",
+            "27: Televizní vysílač Zlín - Tlustá hora",
+            "28: Altán U Spáleného dubu",
+            "34: Slanica Zlín-Louky",
+            "39: Kurovický lom",
+            "40: Kostel Míškovice (F. L. Gahura)",
+            "41: Pomník Karla Mrazíka u Žlutavy",
+            "43: Rozhledna Hostišová",
+            "44: Doležalova skála („Mořské oko“) u Fryštáku",
+            "48: Soutok Moravy a Dřevnice",
+            "50: Kaple sv. Antonína Paduánského ve Fryštáku",
+            "51: Bezedník (rybník a přírodní rezervace)",
+            "53: busta Františka Pavlíčka (dramatika) v Lukově",
+            "54: Hvězdárna Zlín",
+            "55: Foucaultovo kyvadlo v rotundě Květné zahrady v Kroměříži",
+            "68: NPR Chropyňský rybník",
+            "76: Záhlinické rybníky",
+            "86: Vodopád Zlín",
+            "90: Památník obětem II. sv. války Březnice",
+            "38: Most nedokončené silnice v Ludkovicích (ten přes potok)",
+            "64: Čertův mlýn - nejvyšší vrchol ZK",
+            "42: Pomník ševce F. Bartoše (pod Hostišovou, u Chlumského potoka)",
+            "52: Mladcová - dům Františka Bartoše"
+        ]
+    },
+    {
         "class": "2SA",
         "points": 21,
         "spots": [
@@ -200,33 +232,8 @@ var dataJson = [
         ]
     },
     {
-        "class": "6XB",
-        "points": 19,
-        "spots": [
-            "03: hrad Malenovice",
-            "06: Hradisko (Hradištěk) – pozůstatky hradu Zlín",
-            "13: kostel sv. Jakuba Většího v Tečovicích",
-            "24: hrad Lukov",
-            "28: Altán U Spáleného dubu",
-            "39: Kurovický lom",
-            "40: Kostel Míškovice (F. L. Gahura)",
-            "43: Rozhledna Hostišová",
-            "44: Doležalova skála („Mořské oko“) u Fryštáku",
-            "50: Kaple sv. Antonína Paduánského ve Fryštáku",
-            "51: Bezedník (rybník a přírodní rezervace)",
-            "53: busta Františka Pavlíčka (dramatika) v Lukově",
-            "54: Hvězdárna Zlín",
-            "86: Vodopád Zlín",
-            "90: Památník obětem II. sv. války Březnice",
-            "38: Most nedokončené silnice v Ludkovicích (ten přes potok)",
-            "64: Čertův mlýn - nejvyšší vrchol ZK",
-            "42: Pomník ševce F. Bartoše (pod Hostišovou, u Chlumského potoka)",
-            "52: Mladcová - dům Františka Bartoše"
-        ]
-    },
-    {
         "class": "3TA",
-        "points": 16,
+        "points": 17,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -242,6 +249,7 @@ var dataJson = [
             "53: busta Františka Pavlíčka (dramatika) v Lukově",
             "86: Vodopád Zlín",
             "88: Tunel UBlanka na \"Baťově nedokončené železnici\"",
+            "38: Most nedokončené silnice v Ludkovicích (ten přes potok)",
             "65: Pulčín ledopády",
             "22: Pulčínské skály"
         ]

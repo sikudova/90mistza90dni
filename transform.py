@@ -3,7 +3,7 @@ import json
 
 def transform_excel_to_web_data():
     
-    df = pd.read_excel("C:\\Users\\admin\\OneDrive - Gymnázium Zlín - Lesní čtvrť\\90mistza90dni\\data.xlsx", skiprows=1, engine='openpyxl').fillna(0)
+    df = pd.read_excel("C:\\Users\\admin\\OneDrive - Gymnázium Zlín - Lesní čtvrť\\data.xlsx", skiprows=1, engine='openpyxl').fillna(0)
         
     cols_to_keep = [c for c in df.columns if "celkový součet" not in str(c).lower()]
     df = df[cols_to_keep]

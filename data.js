@@ -69,7 +69,7 @@ var dataJson = [
     },
     {
         "class": "7EB",
-        "points": 58,
+        "points": 59,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -128,12 +128,13 @@ var dataJson = [
             "73: PP Trubiska",
             "62: Lačnovské skály – voštiny, mrazový srub",
             "81: Vařákovy paseky",
-            "10: Vavrečkova a Hlavničkova vila"
+            "10: Vavrečkova a Hlavničkova vila",
+            "66: Študlov - PP Hrádek"
         ]
     },
     {
         "class": "2SB",
-        "points": 27,
+        "points": 34,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -143,24 +144,31 @@ var dataJson = [
             "09: vila Tomáše Bati",
             "11: Kostel sv. Filipa a Jakuba",
             "12: kaple na Zlínských Pasekách",
+            "13: kostel sv. Jakuba Většího v Tečovicích",
             "14: Kaple Panny Marie Zlín – Příluky",
             "15: budova soudu v Loukách",
             "26: Svah Zlín",
+            "27: Televizní vysílač Zlín - Tlustá hora",
             "29: Zimní stadion Luďka Čajky",
             "32: Janova hora, Janohrad",
+            "34: Slanica Zlín-Louky",
             "35: Rozhledna Doubrava u Vizovic",
             "36: Chladná studně – pramen a kaple u Vizovic",
+            "39: Kurovický lom",
+            "43: Rozhledna Hostišová",
             "44: Doležalova skála („Mořské oko“) u Fryštáku",
             "50: Kaple sv. Antonína Paduánského ve Fryštáku",
             "58: Muzeum map Zlín",
             "61: Alois Hába (rodák z Vizovic) - pomník ve Vizovicích",
             "87: První panelový dům ve Zlíně",
+            "90: Památník obětem II. sv. války Březnice",
             "16: hrad Cimburk",
             "17: Hora sv. Klimenta",
             "18: hrad Buchlov",
             "64: Čertův mlýn - nejvyšší vrchol ZK",
             "67: Lom Rasová",
             "77: Komňa – muzeum miškářů",
+            "42: Pomník ševce F. Bartoše (pod Hostišovou, u Chlumského potoka)",
             "31: Místo, kde bude stát hráz VN Vlachovice"
         ]
     },

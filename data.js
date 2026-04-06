@@ -1,7 +1,7 @@
 var dataJson = [
     {
         "class": "1PB",
-        "points": 82,
+        "points": 85,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -11,6 +11,7 @@ var dataJson = [
             "06: Hradisko (Hradištěk) – pozůstatky hradu Zlín",
             "07: vyhlídka z 21. budovy – Baťova mrakodrapu",
             "08: Sokolovna Zlín",
+            "09: vila Tomáše Bati",
             "11: Kostel sv. Filipa a Jakuba",
             "12: kaple na Zlínských Pasekách",
             "13: kostel sv. Jakuba Většího v Tečovicích",
@@ -42,6 +43,7 @@ var dataJson = [
             "51: Bezedník (rybník a přírodní rezervace)",
             "53: busta Františka Pavlíčka (dramatika) v Lukově",
             "54: Hvězdárna Zlín",
+            "58: Muzeum map Zlín",
             "60: Vartovna",
             "61: Alois Hába (rodák z Vizovic) - pomník ve Vizovicích",
             "68: NPR Chropyňský rybník",
@@ -73,6 +75,7 @@ var dataJson = [
             "62: Lačnovské skály – voštiny, mrazový srub",
             "81: Vařákovy paseky",
             "10: Vavrečkova a Hlavničkova vila",
+            "31: Místo, kde bude stát hráz VN Vlachovice",
             "57: Letecké muzeum v Kunovicích",
             "52: Mladcová - dům Františka Bartoše",
             "66: Študlov - PP Hrádek",

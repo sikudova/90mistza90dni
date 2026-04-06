@@ -1,7 +1,7 @@
 var dataJson = [
     {
         "class": "1PB",
-        "points": 71,
+        "points": 82,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -17,7 +17,7 @@ var dataJson = [
             "14: Kaple Panny Marie Zlín – Příluky",
             "15: budova soudu v Loukách",
             "19: nedostavěná Baťova dálnice (mostek)",
-            "24: Hrad Lukov",
+            "24: hrad Lukov",
             "25: Socha Emila Zátopka",
             "26: Svah Zlín",
             "27: Televizní vysílač Zlín - Tlustá hora",
@@ -42,17 +42,22 @@ var dataJson = [
             "51: Bezedník (rybník a přírodní rezervace)",
             "53: busta Františka Pavlíčka (dramatika) v Lukově",
             "54: Hvězdárna Zlín",
+            "60: Vartovna",
             "61: Alois Hába (rodák z Vizovic) - pomník ve Vizovicích",
             "68: NPR Chropyňský rybník",
             "70: PP Stráň",
             "76: Záhlinické rybníky",
+            "78: Hrady v Hostýnských – Křídlo",
             "79: Hostýn",
             "84: Brdo",
+            "85: zřícenina Obřany",
             "86: Vodopád Zlín",
             "87: První panelový dům ve Zlíně",
             "88: Tunel UBlanka na \"Baťově nedokončené železnici\"",
             "89: Uriášův kámen",
             "90: Památník obětem II. sv. války Březnice",
+            "16: hrad Cimburk",
+            "17: Hora sv. Klimenta",
             "38: Most nedokončené silnice v Ludkovicích (ten přes potok)",
             "45: Vyhlídka Samuela Šroma u Bohuslavic",
             "67: Lom Rasová",
@@ -71,14 +76,20 @@ var dataJson = [
             "57: Letecké muzeum v Kunovicích",
             "52: Mladcová - dům Františka Bartoše",
             "66: Študlov - PP Hrádek",
+            "82: Oškerovy paseky",
+            "83: Makyta",
             "72: PP Ploščiny",
             "75: PP Smolinka",
-            "71: PP Rochus"
+            "71: PP Rochus",
+            "69: PR Ocásek",
+            "56: Rozhledna Maruška",
+            "59: Kelčský javorník",
+            "80: Drastihlava"
         ]
     },
     {
         "class": "7EB",
-        "points": 65,
+        "points": 73,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -111,6 +122,7 @@ var dataJson = [
             "43: Rozhledna Hostišová",
             "44: Doležalova skála („Mořské oko“) u Fryštáku",
             "48: Soutok Moravy a Dřevnice",
+            "49: Pramen Dřevnice",
             "50: Kaple sv. Antonína Paduánského ve Fryštáku",
             "51: Bezedník (rybník a přírodní rezervace)",
             "53: busta Františka Pavlíčka (dramatika) v Lukově",
@@ -130,6 +142,7 @@ var dataJson = [
             "90: Památník obětem II. sv. války Březnice",
             "18: hrad Buchlov",
             "38: Most nedokončené silnice v Ludkovicích (ten přes potok)",
+            "45: Vyhlídka Samuela Šroma u Bohuslavic",
             "63: Čertův kámen – kopec Rýsov u Provodova",
             "23: ruina hradu Starý Světlov",
             "20: Klášťov",
@@ -142,19 +155,26 @@ var dataJson = [
             "81: Vařákovy paseky",
             "10: Vavrečkova a Hlavničkova vila",
             "31: Místo, kde bude stát hráz VN Vlachovice",
+            "57: Letecké muzeum v Kunovicích",
+            "52: Mladcová - dům Františka Bartoše",
             "66: Študlov - PP Hrádek",
             "82: Oškerovy paseky",
-            "83: Makyta"
+            "83: Makyta",
+            "71: PP Rochus",
+            "47: Žižkův dub severně od Pašovic",
+            "56: Rozhledna Maruška",
+            "59: Kelčský javorník"
         ]
     },
     {
         "class": "2SB",
-        "points": 35,
+        "points": 42,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
             "03: hrad Malenovice",
             "04: Kostelec – lázeňské budovy",
+            "06: Hradisko (Hradištěk) – pozůstatky hradu Zlín",
             "08: Sokolovna Zlín",
             "09: vila Tomáše Bati",
             "11: Kostel sv. Filipa a Jakuba",
@@ -166,6 +186,7 @@ var dataJson = [
             "27: Televizní vysílač Zlín - Tlustá hora",
             "29: Zimní stadion Luďka Čajky",
             "32: Janova hora, Janohrad",
+            "33: Maleniska – poutní místo a pramen",
             "34: Slanica Zlín-Louky",
             "35: Rozhledna Doubrava u Vizovic",
             "36: Chladná studně – pramen a kaple u Vizovic",
@@ -181,16 +202,21 @@ var dataJson = [
             "16: hrad Cimburk",
             "17: Hora sv. Klimenta",
             "18: hrad Buchlov",
+            "38: Most nedokončené silnice v Ludkovicích (ten přes potok)",
             "64: Čertův mlýn - nejvyšší vrchol ZK",
             "67: Lom Rasová",
             "77: Komňa – muzeum miškářů",
+            "63: Čertův kámen – kopec Rýsov u Provodova",
+            "23: ruina hradu Starý Světlov",
             "42: Pomník ševce F. Bartoše (pod Hostišovou, u Chlumského potoka)",
-            "31: Místo, kde bude stát hráz VN Vlachovice"
+            "10: Vavrečkova a Hlavničkova vila",
+            "31: Místo, kde bude stát hráz VN Vlachovice",
+            "52: Mladcová - dům Františka Bartoše"
         ]
     },
     {
         "class": "6XB",
-        "points": 26,
+        "points": 27,
         "spots": [
             "03: hrad Malenovice",
             "06: Hradisko (Hradištěk) – pozůstatky hradu Zlín",
@@ -217,27 +243,31 @@ var dataJson = [
             "38: Most nedokončené silnice v Ludkovicích (ten přes potok)",
             "64: Čertův mlýn - nejvyšší vrchol ZK",
             "42: Pomník ševce F. Bartoše (pod Hostišovou, u Chlumského potoka)",
-            "52: Mladcová - dům Františka Bartoše"
+            "52: Mladcová - dům Františka Bartoše",
+            "82: Oškerovy paseky"
         ]
     },
     {
         "class": "2SA",
-        "points": 22,
+        "points": 25,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
             "03: hrad Malenovice",
             "04: Kostelec – lázeňské budovy",
+            "05: zámek Klečůvka",
             "09: vila Tomáše Bati",
             "11: Kostel sv. Filipa a Jakuba",
             "12: kaple na Zlínských Pasekách",
             "13: kostel sv. Jakuba Většího v Tečovicích",
+            "14: Kaple Panny Marie Zlín – Příluky",
             "15: budova soudu v Loukách",
             "24: hrad Lukov",
             "25: Socha Emila Zátopka",
             "27: Televizní vysílač Zlín - Tlustá hora",
             "29: Zimní stadion Luďka Čajky",
             "30: Slušovická přehrada (zdroj pitné vody)",
+            "33: Maleniska – poutní místo a pramen",
             "34: Slanica Zlín-Louky",
             "35: Rozhledna Doubrava u Vizovic",
             "36: Chladná studně – pramen a kaple u Vizovic",
@@ -273,7 +303,7 @@ var dataJson = [
     },
     {
         "class": "6XA",
-        "points": 11,
+        "points": 12,
         "spots": [
             "02: Památník T. Bati",
             "03: hrad Malenovice",
@@ -284,6 +314,7 @@ var dataJson = [
             "29: Zimní stadion Luďka Čajky",
             "34: Slanica Zlín-Louky",
             "43: Rozhledna Hostišová",
+            "79: Hostýn",
             "10: Vavrečkova a Hlavničkova vila",
             "52: Mladcová - dům Františka Bartoše"
         ]
@@ -301,11 +332,23 @@ var dataJson = [
         ]
     },
     {
+        "class": "1A",
+        "points": 5,
+        "spots": [
+            "02: Památník T. Bati",
+            "11: Kostel sv. Filipa a Jakuba",
+            "12: kaple na Zlínských Pasekách",
+            "26: Svah Zlín",
+            "87: První panelový dům ve Zlíně"
+        ]
+    },
+    {
         "class": "5QB",
-        "points": 2,
+        "points": 3,
         "spots": [
             "01: Zámek Zlín",
-            "60: Vartovna"
+            "60: Vartovna",
+            "21: Čertovy skály – Lidečko"
         ]
     },
     {
@@ -335,6 +378,13 @@ var dataJson = [
         "points": 1,
         "spots": [
             "48: Soutok Moravy a Dřevnice"
+        ]
+    },
+    {
+        "class": "3C",
+        "points": 1,
+        "spots": [
+            "52: Mladcová - dům Františka Bartoše"
         ]
     }
 ];

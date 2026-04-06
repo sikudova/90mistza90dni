@@ -17,7 +17,7 @@ var dataJson = [
             "14: Kaple Panny Marie Zlín – Příluky",
             "15: budova soudu v Loukách",
             "19: nedostavěná Baťova dálnice (mostek)",
-            "24: hrad Lukov",
+            "24: Hrad Lukov",
             "25: Socha Emila Zátopka",
             "26: Svah Zlín",
             "27: Televizní vysílač Zlín - Tlustá hora",

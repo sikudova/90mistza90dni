@@ -1,7 +1,7 @@
 var dataJson = [
     {
         "class": "1PB",
-        "points": 85,
+        "points": 90,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -43,6 +43,7 @@ var dataJson = [
             "51: Bezedník (rybník a přírodní rezervace)",
             "53: busta Františka Pavlíčka (dramatika) v Lukově",
             "54: Hvězdárna Zlín",
+            "55: Foucaultovo kyvadlo v rotundě Květné zahrady v Kroměříži",
             "58: Muzeum map Zlín",
             "60: Vartovna",
             "61: Alois Hába (rodák z Vizovic) - pomník ve Vizovicích",
@@ -60,7 +61,9 @@ var dataJson = [
             "90: Památník obětem II. sv. války Březnice",
             "16: hrad Cimburk",
             "17: Hora sv. Klimenta",
+            "18: hrad Buchlov",
             "38: Most nedokončené silnice v Ludkovicích (ten přes potok)",
+            "64: Čertův mlýn - nejvyšší vrchol ZK",
             "45: Vyhlídka Samuela Šroma u Bohuslavic",
             "67: Lom Rasová",
             "77: Komňa – muzeum miškářů",
@@ -85,27 +88,32 @@ var dataJson = [
             "75: PP Smolinka",
             "71: PP Rochus",
             "69: PR Ocásek",
+            "47: Žižkův dub severně od Pašovic",
             "56: Rozhledna Maruška",
             "59: Kelčský javorník",
-            "80: Drastihlava"
+            "80: Drastihlava",
+            "74: NPR Javorina"
         ]
     },
     {
         "class": "7EB",
-        "points": 73,
+        "points": 90,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
             "03: hrad Malenovice",
+            "04: Kostelec – lázeňské budovy",
             "05: zámek Klečůvka",
             "06: Hradisko (Hradištěk) – pozůstatky hradu Zlín",
             "07: vyhlídka z 21. budovy – Baťova mrakodrapu",
+            "08: Sokolovna Zlín",
             "09: vila Tomáše Bati",
             "11: Kostel sv. Filipa a Jakuba",
             "12: kaple na Zlínských Pasekách",
             "13: kostel sv. Jakuba Většího v Tečovicích",
             "14: Kaple Panny Marie Zlín – Příluky",
             "15: budova soudu v Loukách",
+            "19: nedostavěná Baťova dálnice (mostek)",
             "24: hrad Lukov",
             "25: Socha Emila Zátopka",
             "26: Svah Zlín",
@@ -124,6 +132,7 @@ var dataJson = [
             "41: Pomník Karla Mrazíka u Žlutavy",
             "43: Rozhledna Hostišová",
             "44: Doležalova skála („Mořské oko“) u Fryštáku",
+            "46: Přístřešek na rybníku Hluboček u Březolup",
             "48: Soutok Moravy a Dřevnice",
             "49: Pramen Dřevnice",
             "50: Kaple sv. Antonína Paduánského ve Fryštáku",
@@ -132,20 +141,28 @@ var dataJson = [
             "54: Hvězdárna Zlín",
             "55: Foucaultovo kyvadlo v rotundě Květné zahrady v Kroměříži",
             "58: Muzeum map Zlín",
+            "60: Vartovna",
             "61: Alois Hába (rodák z Vizovic) - pomník ve Vizovicích",
             "68: NPR Chropyňský rybník",
             "70: PP Stráň",
             "76: Záhlinické rybníky",
             "78: Hrady v Hostýnských – Křídlo",
             "79: Hostýn",
+            "84: Brdo",
             "85: zřícenina Obřany",
             "86: Vodopád Zlín",
             "87: První panelový dům ve Zlíně",
             "88: Tunel UBlanka na \"Baťově nedokončené železnici\"",
+            "89: Uriášův kámen",
             "90: Památník obětem II. sv. války Březnice",
+            "16: hrad Cimburk",
+            "17: Hora sv. Klimenta",
             "18: hrad Buchlov",
             "38: Most nedokončené silnice v Ludkovicích (ten přes potok)",
+            "64: Čertův mlýn - nejvyšší vrchol ZK",
             "45: Vyhlídka Samuela Šroma u Bohuslavic",
+            "67: Lom Rasová",
+            "77: Komňa – muzeum miškářů",
             "63: Čertův kámen – kopec Rýsov u Provodova",
             "23: ruina hradu Starý Světlov",
             "20: Klášťov",
@@ -163,10 +180,15 @@ var dataJson = [
             "66: Študlov - PP Hrádek",
             "82: Oškerovy paseky",
             "83: Makyta",
+            "72: PP Ploščiny",
+            "75: PP Smolinka",
             "71: PP Rochus",
+            "69: PR Ocásek",
             "47: Žižkův dub severně od Pašovic",
             "56: Rozhledna Maruška",
-            "59: Kelčský javorník"
+            "59: Kelčský javorník",
+            "80: Drastihlava",
+            "74: NPR Javorina"
         ]
     },
     {
@@ -219,9 +241,10 @@ var dataJson = [
     },
     {
         "class": "6XB",
-        "points": 27,
+        "points": 32,
         "spots": [
             "03: hrad Malenovice",
+            "05: zámek Klečůvka",
             "06: Hradisko (Hradištěk) – pozůstatky hradu Zlín",
             "13: kostel sv. Jakuba Většího v Tečovicích",
             "24: hrad Lukov",
@@ -234,11 +257,13 @@ var dataJson = [
             "43: Rozhledna Hostišová",
             "44: Doležalova skála („Mořské oko“) u Fryštáku",
             "48: Soutok Moravy a Dřevnice",
+            "49: Pramen Dřevnice",
             "50: Kaple sv. Antonína Paduánského ve Fryštáku",
             "51: Bezedník (rybník a přírodní rezervace)",
             "53: busta Františka Pavlíčka (dramatika) v Lukově",
             "54: Hvězdárna Zlín",
             "55: Foucaultovo kyvadlo v rotundě Květné zahrady v Kroměříži",
+            "60: Vartovna",
             "68: NPR Chropyňský rybník",
             "76: Záhlinické rybníky",
             "86: Vodopád Zlín",
@@ -247,12 +272,14 @@ var dataJson = [
             "64: Čertův mlýn - nejvyšší vrchol ZK",
             "42: Pomník ševce F. Bartoše (pod Hostišovou, u Chlumského potoka)",
             "52: Mladcová - dům Františka Bartoše",
-            "82: Oškerovy paseky"
+            "82: Oškerovy paseky",
+            "56: Rozhledna Maruška",
+            "80: Drastihlava"
         ]
     },
     {
         "class": "2SA",
-        "points": 25,
+        "points": 30,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -274,11 +301,16 @@ var dataJson = [
             "34: Slanica Zlín-Louky",
             "35: Rozhledna Doubrava u Vizovic",
             "36: Chladná studně – pramen a kaple u Vizovic",
+            "49: Pramen Dřevnice",
             "54: Hvězdárna Zlín",
             "61: Alois Hába (rodák z Vizovic) - pomník ve Vizovicích",
             "76: Záhlinické rybníky",
+            "88: Tunel UBlanka na \"Baťově nedokončené železnici\"",
             "89: Uriášův kámen",
-            "31: Místo, kde bude stát hráz VN Vlachovice"
+            "31: Místo, kde bude stát hráz VN Vlachovice",
+            "66: Študlov - PP Hrádek",
+            "72: PP Ploščiny",
+            "75: PP Smolinka"
         ]
     },
     {
@@ -324,8 +356,10 @@ var dataJson = [
     },
     {
         "class": "učitel",
-        "points": 6,
+        "points": 8,
         "spots": [
+            "04: Kostelec – lázeňské budovy",
+            "07: vyhlídka z 21. budovy – Baťova mrakodrapu",
             "25: Socha Emila Zátopka",
             "32: Janova hora, Janohrad",
             "50: Kaple sv. Antonína Paduánského ve Fryštáku",
@@ -347,11 +381,12 @@ var dataJson = [
     },
     {
         "class": "5QB",
-        "points": 3,
+        "points": 4,
         "spots": [
             "01: Zámek Zlín",
             "60: Vartovna",
-            "21: Čertovy skály – Lidečko"
+            "21: Čertovy skály – Lidečko",
+            "22: Pulčínské skály"
         ]
     },
     {
@@ -360,6 +395,14 @@ var dataJson = [
         "spots": [
             "08: Sokolovna Zlín",
             "50: Kaple sv. Antonína Paduánského ve Fryštáku"
+        ]
+    },
+    {
+        "class": "3C",
+        "points": 2,
+        "spots": [
+            "52: Mladcová - dům Františka Bartoše",
+            "80: Drastihlava"
         ]
     },
     {
@@ -381,13 +424,6 @@ var dataJson = [
         "points": 1,
         "spots": [
             "48: Soutok Moravy a Dřevnice"
-        ]
-    },
-    {
-        "class": "3C",
-        "points": 1,
-        "spots": [
-            "52: Mladcová - dům Františka Bartoše"
         ]
     }
 ];

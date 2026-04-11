@@ -347,6 +347,24 @@ var dataJson = [
         ]
     },
     {
+        "class": "učitel",
+        "points": 12,
+        "spots": [
+            "01: Zámek Zlín",
+            "04: Kostelec – lázeňské budovy",
+            "07: vyhlídka z 21. budovy – Baťova mrakodrapu",
+            "25: Socha Emila Zátopka",
+            "27: Televizní vysílač Zlín - Tlustá hora",
+            "32: Janova hora, Janohrad",
+            "44: Doležalova skála („Mořské oko“) u Fryštáku",
+            "50: Kaple sv. Antonína Paduánského ve Fryštáku",
+            "54: Hvězdárna Zlín",
+            "76: Záhlinické rybníky",
+            "79: Hostýn",
+            "52: Mladcová - dům Františka Bartoše"
+        ]
+    },
+    {
         "class": "6XA",
         "points": 12,
         "spots": [
@@ -362,23 +380,6 @@ var dataJson = [
             "79: Hostýn",
             "10: Vavrečkova a Hlavničkova vila",
             "52: Mladcová - dům Františka Bartoše"
-        ]
-    },
-    {
-        "class": "učitel",
-        "points": 11,
-        "spots": [
-            "01: Zámek Zlín",
-            "04: Kostelec – lázeňské budovy",
-            "07: vyhlídka z 21. budovy – Baťova mrakodrapu",
-            "25: Socha Emila Zátopka",
-            "27: Televizní vysílač Zlín - Tlustá hora",
-            "32: Janova hora, Janohrad",
-            "44: Doležalova skála („Mořské oko“) u Fryštáku",
-            "50: Kaple sv. Antonína Paduánského ve Fryštáku",
-            "54: Hvězdárna Zlín",
-            "76: Záhlinické rybníky",
-            "79: Hostýn"
         ]
     },
     {

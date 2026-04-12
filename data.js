@@ -244,13 +244,15 @@ var dataJson = [
     },
     {
         "class": "6XB",
-        "points": 33,
+        "points": 35,
         "spots": [
             "03: hrad Malenovice",
             "05: zámek Klečůvka",
             "06: Hradisko (Hradištěk) – pozůstatky hradu Zlín",
+            "12: kaple na Zlínských Pasekách",
             "13: kostel sv. Jakuba Většího v Tečovicích",
             "24: hrad Lukov",
+            "25: Socha Emila Zátopka",
             "27: Televizní vysílač Zlín - Tlustá hora",
             "28: Altán U Spáleného dubu",
             "34: Slanica Zlín-Louky",
@@ -283,7 +285,7 @@ var dataJson = [
     },
     {
         "class": "2SA",
-        "points": 32,
+        "points": 33,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -300,6 +302,7 @@ var dataJson = [
             "24: hrad Lukov",
             "25: Socha Emila Zátopka",
             "27: Televizní vysílač Zlín - Tlustá hora",
+            "28: Altán U Spáleného dubu",
             "29: Zimní stadion Luďka Čajky",
             "30: Slušovická přehrada (zdroj pitné vody)",
             "33: Maleniska – poutní místo a pramen",
@@ -348,20 +351,28 @@ var dataJson = [
     },
     {
         "class": "učitel",
-        "points": 12,
+        "points": 20,
         "spots": [
             "01: Zámek Zlín",
             "04: Kostelec – lázeňské budovy",
             "07: vyhlídka z 21. budovy – Baťova mrakodrapu",
+            "11: Kostel sv. Filipa a Jakuba",
+            "12: kaple na Zlínských Pasekách",
             "25: Socha Emila Zátopka",
             "27: Televizní vysílač Zlín - Tlustá hora",
             "32: Janova hora, Janohrad",
             "44: Doležalova skála („Mořské oko“) u Fryštáku",
             "50: Kaple sv. Antonína Paduánského ve Fryštáku",
             "54: Hvězdárna Zlín",
+            "58: Muzeum map Zlín",
             "76: Záhlinické rybníky",
             "79: Hostýn",
-            "52: Mladcová - dům Františka Bartoše"
+            "87: První panelový dům ve Zlíně",
+            "16: hrad Cimburk",
+            "17: Hora sv. Klimenta",
+            "10: Vavrečkova a Hlavničkova vila",
+            "52: Mladcová - dům Františka Bartoše",
+            "69: PR Ocásek"
         ]
     },
     {
@@ -384,7 +395,7 @@ var dataJson = [
     },
     {
         "class": "1PA",
-        "points": 8,
+        "points": 11,
         "spots": [
             "01: Zámek Zlín",
             "05: zámek Klečůvka",
@@ -392,6 +403,9 @@ var dataJson = [
             "11: Kostel sv. Filipa a Jakuba",
             "24: hrad Lukov",
             "30: Slušovická přehrada (zdroj pitné vody)",
+            "32: Janova hora, Janohrad",
+            "35: Rozhledna Doubrava u Vizovic",
+            "36: Chladná studně – pramen a kaple u Vizovic",
             "48: Soutok Moravy a Dřevnice",
             "61: Alois Hába (rodák z Vizovic) - pomník ve Vizovicích"
         ]

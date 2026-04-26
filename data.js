@@ -283,7 +283,7 @@ var dataJson = [
     },
     {
         "class": "2SB",
-        "points": 82,
+        "points": 83,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -337,6 +337,7 @@ var dataJson = [
             "86: Vodopád Zlín",
             "87: První panelový dům ve Zlíně",
             "88: Tunel UBlanka na \"Baťově nedokončené železnici\"",
+            "89: Uriášův kámen",
             "90: Památník obětem II. sv. války Březnice",
             "16: hrad Cimburk",
             "17: Hora sv. Klimenta",
@@ -492,7 +493,7 @@ var dataJson = [
     },
     {
         "class": "1PA",
-        "points": 45,
+        "points": 46,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -501,6 +502,7 @@ var dataJson = [
             "05: zámek Klečůvka",
             "06: Hradisko (Hradištěk) – pozůstatky hradu Zlín",
             "07: vyhlídka z 21. budovy – Baťova mrakodrapu",
+            "08: Sokolovna Zlín",
             "09: vila Tomáše Bati",
             "11: Kostel sv. Filipa a Jakuba",
             "12: kaple na Zlínských Pasekách",
@@ -543,7 +545,7 @@ var dataJson = [
     },
     {
         "class": "3C",
-        "points": 35,
+        "points": 39,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -561,6 +563,7 @@ var dataJson = [
             "35: Rozhledna Doubrava u Vizovic",
             "36: Chladná studně – pramen a kaple u Vizovic",
             "44: Doležalova skála („Mořské oko“) u Fryštáku",
+            "46: Přístřešek na rybníku Hluboček u Březolup",
             "49: Pramen Dřevnice",
             "50: Kaple sv. Antonína Paduánského ve Fryštáku",
             "51: Bezedník (rybník a přírodní rezervace)",
@@ -573,11 +576,14 @@ var dataJson = [
             "88: Tunel UBlanka na \"Baťově nedokončené železnici\"",
             "90: Památník obětem II. sv. války Březnice",
             "16: hrad Cimburk",
+            "45: Vyhlídka Samuela Šroma u Bohuslavic",
             "23: ruina hradu Starý Světlov",
             "20: Klášťov",
+            "21: Čertovy skály – Lidečko",
             "10: Vavrečkova a Hlavničkova vila",
             "52: Mladcová - dům Františka Bartoše",
             "82: Oškerovy paseky",
+            "83: Makyta",
             "56: Rozhledna Maruška",
             "80: Drastihlava"
         ]

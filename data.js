@@ -96,7 +96,7 @@ var dataJson = [
         ]
     },
     {
-        "class": "7EB",
+        "class": "2SB",
         "points": 90,
         "spots": [
             "01: Zámek Zlín",
@@ -192,8 +192,8 @@ var dataJson = [
         ]
     },
     {
-        "class": "2SB",
-        "points": 88,
+        "class": "7EB",
+        "points": 90,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -277,11 +277,13 @@ var dataJson = [
             "82: Oškerovy paseky",
             "83: Makyta",
             "72: PP Ploščiny",
+            "75: PP Smolinka",
             "71: PP Rochus",
             "69: PR Ocásek",
             "47: Žižkův dub severně od Pašovic",
             "56: Rozhledna Maruška",
             "59: Kelčský javorník",
+            "80: Drastihlava",
             "74: NPR Javorina"
         ]
     },
@@ -506,7 +508,7 @@ var dataJson = [
     },
     {
         "class": "1PA",
-        "points": 53,
+        "points": 54,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -532,6 +534,7 @@ var dataJson = [
             "34: Slanica Zlín-Louky",
             "35: Rozhledna Doubrava u Vizovic",
             "36: Chladná studně – pramen a kaple u Vizovic",
+            "37: Zřícenina Podhradí – Leopoldov (u Pohořelic)",
             "39: Kurovický lom",
             "40: Kostel Míškovice (F. L. Gahura)",
             "41: Pomník Karla Mrazíka u Žlutavy",
@@ -565,12 +568,13 @@ var dataJson = [
     },
     {
         "class": "3C",
-        "points": 40,
+        "points": 41,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
             "03: hrad Malenovice",
             "04: Kostelec – lázeňské budovy",
+            "07: vyhlídka z 21. budovy – Baťova mrakodrapu",
             "08: Sokolovna Zlín",
             "09: vila Tomáše Bati",
             "11: Kostel sv. Filipa a Jakuba",

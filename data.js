@@ -385,7 +385,7 @@ var dataJson = [
     },
     {
         "class": "1PA",
-        "points": 82,
+        "points": 90,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -429,12 +429,15 @@ var dataJson = [
             "54: Hvězdárna Zlín",
             "55: Foucaultovo kyvadlo v rotundě Květné zahrady v Kroměříži",
             "58: Muzeum map Zlín",
+            "60: Vartovna",
             "61: Alois Hába (rodák z Vizovic) - pomník ve Vizovicích",
             "68: NPR Chropyňský rybník",
             "70: PP Stráň",
             "76: Záhlinické rybníky",
             "78: Hrady v Hostýnských – Křídlo",
             "79: Hostýn",
+            "84: Brdo",
+            "85: zřícenina Obřany",
             "86: Vodopád Zlín",
             "87: První panelový dům ve Zlíně",
             "88: Tunel UBlanka na \"Baťově nedokončené železnici\"",
@@ -456,24 +459,29 @@ var dataJson = [
             "73: PP Trubiska",
             "21: Čertovy skály – Lidečko",
             "22: Pulčínské skály",
+            "62: Lačnovské skály – voštiny, mrazový srub",
             "81: Vařákovy paseky",
             "10: Vavrečkova a Hlavničkova vila",
             "31: Místo, kde bude stát hráz VN Vlachovice",
             "57: Letecké muzeum v Kunovicích",
             "52: Mladcová - dům Františka Bartoše",
             "66: Študlov - PP Hrádek",
+            "82: Oškerovy paseky",
+            "83: Makyta",
             "72: PP Ploščiny",
             "75: PP Smolinka",
             "71: PP Rochus",
+            "69: PR Ocásek",
             "47: Žižkův dub severně od Pašovic",
             "56: Rozhledna Maruška",
             "59: Kelčský javorník",
+            "80: Drastihlava",
             "74: NPR Javorina"
         ]
     },
     {
         "class": "2SA",
-        "points": 77,
+        "points": 78,
         "spots": [
             "01: Zámek Zlín",
             "02: Památník T. Bati",
@@ -551,7 +559,8 @@ var dataJson = [
             "71: PP Rochus",
             "69: PR Ocásek",
             "47: Žižkův dub severně od Pašovic",
-            "56: Rozhledna Maruška"
+            "56: Rozhledna Maruška",
+            "59: Kelčský javorník"
         ]
     },
     {
